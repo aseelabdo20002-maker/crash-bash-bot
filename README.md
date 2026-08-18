@@ -14,7 +14,7 @@ Supervised by Dr. Saed Tarapiah and Dr. Ashraf Armoush.
 
 - An **OAK-D camera** connected to a **Raspberry Pi** tracks the ball's position in real time.
 - The Raspberry Pi predicts the ball's trajectory and calculates the target position for the robot's carriage.
-- The Raspberry Pi sends `MOVE` and `KICK` commands over serial to the **robot-side Arduino**, which drives a **NEMA-17 stepper motor** (via a DRV8825 driver) to position the carriage on linear rails, and fires a **12V solenoid** to strike the ball.
+- The Raspberry Pi sends `MOVE` and `KICK` commands over serial to the **robot-side Arduino**, which drives a **NEMA-17 stepper motor** ( via a DRV8825 driver ) to position the carriage on linear rails, and fires a **12V solenoid** to strike the ball.
 - A separate **joystick-side Arduino** lets the human player control their own carriage and solenoid manually using a joystick and push button.
 - Goals are detected using **LDR + laser sensor pairs** on each side of the table, with score shown on a 7-segment display and game sounds played through a DFPlayer module.
 
